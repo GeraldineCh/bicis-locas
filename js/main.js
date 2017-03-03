@@ -24,4 +24,9 @@ if((nombre != "" && apellido  != "") && (contrasena != "" && modelo != "")){
   alert("Falta ingresar iformación obligatoria");
 }
 
+document.getElementById("name").value = "";
+document.getElementById("lastname").value = "";
+document.getElementById("input-password").value = "";
+document.getElementById("input-email").value = "";
+document.getElementById("opciones").value = "";
 }
