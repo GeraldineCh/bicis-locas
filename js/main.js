@@ -18,7 +18,7 @@ if((nombre != "" && apellido  != "") && (contrasena != "" && modelo != "")){
     alert("Estructura de correo no válida: \n Ingresar email@domain.com");
   }
 
-  if(contrasena.length != 6 || contrasena == "password" || contrasena == "123456" || contrasena == "098754"){
+  if(contrasena.length < 6 || contrasena == "password" || contrasena == "123456" || contrasena == "098754"){
     alert("Estructura de contraseña no válida: \n Ingresar contraseña de 6 caracteres");
   }
 
